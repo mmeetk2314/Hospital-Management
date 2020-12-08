@@ -1,0 +1,6 @@
+﻿INSERT INTO [dbo].[Medicine] ([MedicineName], [Cost], [ExpiryDate], [HospitalID]) VALUES (N'Adderall', 30, N'2022-07-06 09:09:00', 7)
+INSERT INTO [dbo].[Medicine] ([MedicineName], [Cost], [ExpiryDate], [HospitalID]) VALUES (N'Amlodipine', 60, N'2022-07-27 09:10:00', 8)
+INSERT INTO [dbo].[Medicine] ([MedicineName], [Cost], [ExpiryDate], [HospitalID]) VALUES (N'Ativan', 50, N'2021-09-09 09:07:00', 6)
+INSERT INTO [dbo].[Medicine] ([MedicineName], [Cost], [ExpiryDate], [HospitalID]) VALUES (N'Panadol', 80, N'2021-06-05 09:02:00', 4)
+INSERT INTO [dbo].[Medicine] ([MedicineName], [Cost], [ExpiryDate], [HospitalID]) VALUES (N'Paracetamol', 20, N'2021-02-20 09:02:00', 3)
+INSERT INTO [dbo].[Medicine] ([MedicineName], [Cost], [ExpiryDate], [HospitalID]) VALUES (N'Skin Cream', 40, N'2022-02-09 09:04:00', 5)
