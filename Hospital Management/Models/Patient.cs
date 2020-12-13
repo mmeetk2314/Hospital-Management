@@ -12,7 +12,9 @@ namespace Hospital_Management.Models
         public int PatientID { get; set; }
         public String PatientName { get; set; }
         public int ContactNumber { get; set; }
+        [DataType(DataType.Date)]
         public DateTime AdmitDate { get; set; }
+        [DataType(DataType.Date)]
         public DateTime DischargeDate { get; set; }
         //Foreign Key
         //public int HospitalID { get; set; }

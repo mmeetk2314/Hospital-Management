@@ -12,6 +12,7 @@ namespace Hospital_Management.Models
         [Key]
         public string MedicineName { get; set; }
         public int Cost { get; set; }
+        [DataType(DataType.Date)]
         public DateTime ExpiryDate { get; set; }
         //Foreign Key
         public int HospitalID { get; set; }
